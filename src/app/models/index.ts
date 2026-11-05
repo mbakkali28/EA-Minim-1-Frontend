@@ -29,3 +29,22 @@ export type {
   UsersPage,
 } from './user.model';
 export { USER_ROLES } from './user.model';
+export type {
+  Request,
+  RequestEvent,
+  RequestInput,
+  RequestListParams,
+  RequestRequester,
+  RequestStatus,
+  RequestStatusChange,
+  RequestType,
+  RequestUpdateInput,
+  RequestWorkout,
+  RequestsPage,
+} from './request.model';
+export {
+  REQUEST_STATUSES,
+  REQUEST_STATUS_LABELS,
+  REQUEST_TYPES,
+  REQUEST_TYPE_LABELS,
+} from './request.model';
